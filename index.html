@@ -7,20 +7,17 @@
     <title>Видео-Студия</title>
   </head>
   <body>
-    <div class="x-wrapper">
+    <div class="wrapper">
       <!-- Шапка сайта -->
       <header class="header">
-        <!-- Логотип -->
-        <div class="header__logo">
+        <div class="container">
+          <!-- Логотип -->
           <div class="logo">
             <a href="/" class="logo__link">
               <img src="" alt="Логотип" class="logo__image" />
             </a>
           </div>
-        </div>
-
-        <!-- Меню -->
-        <div class="header__menu">
+          <!-- Меню -->
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item">
@@ -34,24 +31,23 @@
               </li>
             </ul>
           </nav>
+          <!-- Информация -->
+          <address class="header__info">
+            <div class="phone">
+              <a href="tel:+78007003030" class="phone__link">8 800 700 30 30</a>
+            </div>
+            <div class="schedule">
+              <div class="schedule__text">График работы</div>
+            </div>
+          </address>
         </div>
-
-        <!-- Информация -->
-        <address class="header__info">
-          <div class="phone">
-            <a href="tel:+78007003030" class="phone__link">8 800 700 30 30</a>
-          </div>
-          <div class="schedule">
-            <div class="schedule__text">График работы</div>
-          </div>
-        </address>
       </header>
 
       <!-- Основной контент -->
       <main class="main">
         <!-- Приветствие -->
         <section class="hero">
-          <div class="hero__container">
+          <div class="container">
             <h1 class="hero__title">Снимем для вас креативное видео</h1>
             <p class="hero__desc">Креативный видеопродакшн полного цикла</p>
             <a href="#" class="hero__btn btn">Подробнее</a>
@@ -60,7 +56,7 @@
 
         <!-- Предложения -->
         <section class="offers">
-          <div class="offers__container">
+          <div class="container">
             <ul class="offers__list">
               <!-- Карточка предложения -->
               <li class="offers__item">
@@ -157,7 +153,7 @@
 
         <!-- События -->
         <section class="events">
-          <div class="events__container">
+          <div class="container">
             <h2 class="events__title">Новости и акции</h2>
             <ul class="events__list">
               <!-- Карточка события -->
@@ -192,26 +188,24 @@
             </ul>
 
             <!-- Пагинация событий -->
-            <div class="events__paginator">
-              <div class="paginator">
-                <div class="paginator__text">Страница 1 из 7</div>
-                <ul class="paginator__list">
-                  <li class="paginator__item paginator__item--active">1</li>
-                  <li class="paginator__item">2</li>
-                  <li class="paginator__item">3</li>
-                  <li class="paginator__item">4</li>
-                  <li class="paginator__item">5</li>
-                  <li class="paginator__item">6</li>
-                  <li class="paginator__item">7</li>
-                </ul>
-              </div>
+            <div class="paginator">
+              <div class="paginator__text">Страница 1 из 7</div>
+              <ul class="paginator__list">
+                <li class="paginator__item paginator__item--active">1</li>
+                <li class="paginator__item">2</li>
+                <li class="paginator__item">3</li>
+                <li class="paginator__item">4</li>
+                <li class="paginator__item">5</li>
+                <li class="paginator__item">6</li>
+                <li class="paginator__item">7</li>
+              </ul>
             </div>
           </div>
         </section>
 
         <!-- О нас -->
         <section class="about">
-          <div class="about__container">
+          <div class="container">
             <img src="" alt="Изображение" class="about__image" />
             <div class="about__block">
               <h2 class="about__title">О нас</h2>
@@ -230,31 +224,27 @@
 
       <!-- Подвал -->
       <footer class="footer">
-        <div class="footer__content">
-          <div class="footer__logo">
-            <div class="logo">
-              <a href="/" class="logo__link">
-                <img src="" alt="Логотип" class="logo__image" />
-              </a>
-            </div>
+        <div class="container">
+          <div class="logo">
+            <a href="/" class="logo__link">
+              <img src="" alt="Логотип" class="logo__image" />
+            </a>
           </div>
 
           <!-- Меню -->
-          <div class="footer__menu">
-            <nav class="menu">
-              <ul class="menu__list">
-                <li class="menu__item">
-                  <a href="#" class="menu__link">Главная</a>
-                </li>
-                <li class="menu__item">
-                  <a href="#" class="menu__link">Услуги</a>
-                </li>
-                <li class="menu__item">
-                  <a href="#" class="menu__link">Отзывы</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Услуги</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
 
           <!-- Ссылки на соц-медия -->
           <div class="footer__socials">
