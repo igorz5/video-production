@@ -32,28 +32,28 @@ body {
 
 /* Titles */
 
-.title {
-  color: #ffffff;
-}
-
 .large-title {
+  color: #ffffff;
   font-size: 72px;
   font-weight: 800;
   text-transform: uppercase;
 }
 
 .medium-title {
+  color: #ffffff;
   font-size: 36px;
   font-weight: 800;
   text-transform: uppercase;
 }
 
 .small-title {
+  color: #ffffff;
   font-size: 24px;
   font-weight: 700;
 }
 
 .subtitle {
+  color: #ffffff;
   font-size: 18px;
   font-weight: 400;
 }
@@ -61,8 +61,6 @@ body {
 /* Logo */
 
 .logo {
-  position: absolute;
-  display: inline-block;
   width: 198px;
   height: 46px;
 }
@@ -70,43 +68,99 @@ body {
 /* Header */
 
 .header {
-  position: relative;
-  padding: 38px 0px;
-  text-align: center;
+  display: flex;
+  padding-top: 28px;
+  margin-bottom: 153px;
 }
 
 .header__logo {
-  left: 0;
-  top: 20px;
+  flex: 1;
+  margin-right: auto;
+  transform: translateY(-8px);
 }
 
 .header__info {
-  position: absolute;
-  right: 0;
-  top: 28px;
+  flex: 1;
   display: inline-block;
+  margin-left: auto;
 }
 
 /* Schedule */
 
 .schedule {
+  position: relative;
   font-size: 13px;
   text-align: right;
   font-style: normal;
 }
 
 .schedule__text {
+  display: inline-block;
   color: #ff3d00;
   text-decoration: underline;
   line-height: 14px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.schedule__text:hover + .schedule__popup {
+  opacity: 0.8;
+  visibility: visible;
+}
+
+.schedule__popup:hover {
+  opacity: 0.8;
+  visibility: visible;
+}
+
+.schedule__popup {
+  visibility: hidden;
+  position: absolute;
+  right: 2px;
+  top: 23px;
+  padding: 12px 17px 12px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  opacity: 0;
+  text-align: left;
+  transition: 200ms;
+}
+
+.schedule__popup::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 50px;
+  width: 16px;
+  height: 16px;
+  transform: rotateZ(45deg) translateY(-50%);
+  background-color: #ffffff;
+}
+
+.schedule__days-time {
+  color: #000000;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 21px;
+  margin-bottom: 3px;
+}
+
+.schedule__lunch-time {
+  color: #000000;
+  font-weight: 600;
+  font-size: 13px;
 }
 
 /* Phone */
 
+.phone {
+  text-align: right;
+}
+
 .phone__info {
   font-size: 11px;
   font-style: normal;
-  color: #9A9A9A;
+  color: #9a9a9a;
   line-height: 21px;
 }
 
@@ -119,9 +173,9 @@ body {
 /* Menu */
 
 .menu {
-  display: inline-block;
-  text-align: center;
-  line-height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu__item {
@@ -151,7 +205,6 @@ body {
 
 .btn {
   background-color: #ff3d00;
-  padding: 18px 54px;
   border-radius: 35px;
   font-size: 14px;
   text-transform: uppercase;
@@ -169,24 +222,28 @@ body {
 /* Hero */
 
 .hero {
-  margin-top: 126px;
+  margin-bottom: 233px;
   text-align: center;
 }
 
+.hero__title {
+  margin-bottom: 16px;
+}
+
 .hero__subtitle {
-  margin: 16px;
+  margin-bottom: 19px;
 }
 
 .hero__btn {
   display: inline-block;
-  margin: 24px;
+  margin-top: 23px;
+  padding: 18px 52px;
 }
 
 /* Offers */
 
 .offers {
   text-align: center;
-  margin-top: 210px;
   font-size: 16px;
 }
 
@@ -226,7 +283,7 @@ body {
 
 .offers__icon {
   margin-left: 5px;
-  height: 80px
+  height: 80px;
 }
 
 .offers-info {
@@ -260,6 +317,7 @@ body {
   padding-right: 56px;
   box-shadow: inset 0px 0px 0px 2px #ff5500;
   background-color: #ffffff;
+  padding: 18px 54px;
 }
 
 .offers__btn:not(:hover) {
@@ -269,19 +327,13 @@ body {
 /* Events */
 
 .events {
-  margin: 180px 0px 145px;
-}
-
-.events__title {
-  margin-top: 12px;
-  margin-bottom: 4px;
+  margin: 180px 0px 150px;
 }
 
 .events__list {
-  font-size: 0; /* Remove the gap between items */
-  margin-top: 51px;
-  margin-bottom: 53px;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin: 51px 0px;
 }
 
 .events__item {
@@ -290,17 +342,10 @@ body {
   height: 394px;
   display: inline-block;
   position: relative;
-  text-align: left;
 }
 
 .events__item:not(:last-child) {
   margin-right: 23px;
-}
-
-.events__block {
-  position: absolute;
-  margin: 26px 31px;
-  bottom: 0;
 }
 
 .events__image {
@@ -310,7 +355,7 @@ body {
 }
 
 .events__info {
-  margin: 18px 31px;
+  margin: 18px 32px;
   display: inline-block;
   position: absolute;
   z-index: 1; /* Display this item on top of the event image */
@@ -319,7 +364,8 @@ body {
 
 .events__name {
   font-size: 24px;
-  margin: 13px 0px;
+  margin-top: 14px;
+  margin-bottom: 13px;
   color: #ffffff;
 }
 
@@ -335,19 +381,20 @@ body {
 /* Paginator */
 
 .paginator {
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
 .paginator__text {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
-  text-align: center;
 }
 
 .paginator__list {
-  display: inline-block;
   margin-left: 25px;
   font-size: 0; /* Remove the gap between items */
 }
@@ -389,31 +436,35 @@ body {
 }
 
 .about__block {
-  position: absolute;
+  position: relative;
   display: inline-block;
   background-color: #ffffff;
-  top: 97px;
-  left: 354px;
-  height: 455px;
+  margin-top: 96px;
+  margin-left: 354px;
   width: 785px;
   border-radius: 5px;
+  padding: 70px 81px 84px;
+  z-index: 1; /* Block on top of image */
+}
+
+.about__image {
+  position: absolute;
 }
 
 .about__title {
   color: #000000;
-  margin: 70px 81px 0px;
+  margin-bottom: 37px;
 }
 
 .about__desc {
-  margin: 38px 202px 43px 81px;
   font-size: 16px;
   text-align: left;
   line-height: 27px;
+  margin-bottom: 60px;
+  width: 501px;
 }
 
 .about__btn {
-  position: absolute;
-  margin: 66px 81px;
   padding: 18px 39px;
   bottom: 0;
 }
@@ -421,43 +472,43 @@ body {
 /* Footer */
 
 .footer {
-  position: relative;
-  margin: 100px 0px 57px;
-  padding: 53px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 53px;
+  margin-bottom: 57px;
+  padding-top: 50px;
   vertical-align: middle;
   height: 93px;
   border-top: 1px solid #2e3032;
 }
 
 .footer__menu {
-  text-align: center;
-  margin-left: 328px;
+  margin-left: 130px;
 }
 
 .footer__info {
-  position: absolute;
-  right: 0;
-  bottom: 0;
   display: inline-block;
   text-align: right;
   font-size: 14px;
+  margin-left: auto;
 }
 
 .footer__socials {
-  position: absolute;
   display: inline-block;
-  margin-left: 112px;
   bottom: 3px;
+  margin-left: 112px;
 }
 
 .footer__logo {
   bottom: 8px;
+  transform: translateY(-5px);
 }
 /* Socials */
 
 .socials {
-  display: inline;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .socials__item {
