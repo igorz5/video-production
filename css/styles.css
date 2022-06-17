@@ -96,19 +96,18 @@ body {
 
 .schedule__text {
   display: inline-block;
-  color: #ff3d00;
+  color: #ff5500;
   text-decoration: underline;
   line-height: 14px;
   vertical-align: top;
   cursor: pointer;
 }
 
-.schedule__text:hover + .schedule__popup {
-  opacity: 0.8;
-  visibility: visible;
+.schedule__text:hover {
+  color: #ff3d00;
 }
 
-.schedule__popup:hover {
+.schedule__text:hover + .schedule__popup {
   opacity: 0.8;
   visibility: visible;
 }
@@ -242,25 +241,18 @@ body {
 
 /* Offers */
 
-.offers {
-  text-align: center;
-  font-size: 16px;
-}
-
 .offers__list {
-  font-size: 0; /* Remove the gap between the items */
+  display: flex;
 }
 
 .offers__item {
   position: relative;
-  text-align: left;
-  vertical-align: top;
-  display: inline-block;
   width: 362px;
   height: 476px;
   background-color: #ffffff;
   border-radius: 5px;
   transition: 200ms;
+  padding: 36px 34px 53px 23px;
 }
 
 .offers__item:not(:last-child) {
@@ -272,37 +264,38 @@ body {
 }
 
 .offers__block {
-  margin: 36px 23px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .offers__name {
   color: #000000;
   font-size: 32px;
-  margin: 30px 0px 17px;
+  margin-top: 30px;
+  margin-bottom: 17px;
 }
 
 .offers__icon {
+  margin-right: auto;
   margin-left: 5px;
   height: 80px;
 }
 
 .offers-info {
-  position: relative;
+  display: flex;
   height: 41px;
   margin-bottom: 26px;
   font-size: 16px;
 }
 
 .offers-info__persons {
-  position: absolute;
-  left: 0;
   width: 102px;
 }
 
 .offers-info__work-days {
-  position: absolute;
-  right: 12px;
   width: 123px;
+  margin-left: auto;
 }
 
 .offers__desc {
@@ -312,12 +305,12 @@ body {
 }
 
 .offers__btn {
-  position: absolute;
-  bottom: 53px;
   padding-right: 56px;
   box-shadow: inset 0px 0px 0px 2px #ff5500;
   background-color: #ffffff;
   padding: 18px 54px;
+  margin-top: auto;
+  margin-right: auto;
 }
 
 .offers__btn:not(:hover) {
@@ -327,13 +320,12 @@ body {
 /* Events */
 
 .events {
-  margin: 180px 0px 150px;
+  margin: 180px 0px 146px;
 }
 
 .events__list {
   display: flex;
-  flex-direction: row;
-  margin: 51px 0px;
+  margin: 50px 0px 54px;
 }
 
 .events__item {
@@ -392,11 +384,11 @@ body {
   color: #ffffff;
   font-size: 16px;
   font-weight: 400;
+  margin-right: 32px;
 }
 
 .paginator__list {
-  margin-left: 25px;
-  font-size: 0; /* Remove the gap between items */
+  display: flex;
 }
 
 .paginator__item {
@@ -473,7 +465,6 @@ body {
 
 .footer {
   display: flex;
-  flex-direction: row;
   align-items: center;
   margin-top: 53px;
   margin-bottom: 57px;
@@ -508,7 +499,7 @@ body {
 
 .socials {
   display: flex;
-  flex-direction: row;
+  align-items: center;
 }
 
 .socials__item {
