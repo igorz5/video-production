@@ -1,0 +1,70 @@
+/* Socials */
+
+.socials {
+  display: flex;
+  align-items: center;
+}
+
+.socials__item {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+}
+
+.socials__item:not(:last-child) {
+  margin-right: 6px;
+}
+
+.socials__link {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.socials__link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.1s ease-in, 0.2s ease-out;
+}
+
+.socials__link:hover::after {
+  opacity: 1;
+}
+
+.socials__link--telegram {
+  background-image: url("/img/socials/tg.png");
+}
+
+.socials__link--vk {
+  background-image: url("/img/socials/vk.png");
+}
+
+.socials__link--facebook {
+  background-image: url("/img/socials/fb.png");
+}
+
+.socials__link--instagram {
+  background-image: url("/img/socials/in.png");
+}
+
+.socials__link--telegram::after {
+  background-image: url("/img/socials/tg-hover.png");
+}
+
+.socials__link--vk::after {
+  background-image: url("/img/socials/vk-hover.png");
+}
+
+.socials__link--facebook::after {
+  background-image: url("/img/socials/fb-hover.png");
+}
+
+.socials__link--instagram::after {
+  background-image: url("/img/socials/in-hover.png");
+}

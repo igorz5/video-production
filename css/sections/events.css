@@ -1,0 +1,54 @@
+/* Events */
+
+.events__container {
+  margin: 180px auto 146px;
+}
+
+.events__list {
+  display: flex;
+  margin: 50px 0px 54px;
+}
+
+.events__item {
+  font-size: 16px;
+  width: 557px;
+  height: 394px;
+  display: inline-block;
+  position: relative;
+}
+
+.events__item:not(:last-child) {
+  margin-right: 23px;
+}
+
+.events__image {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.events__block {
+  padding: 0px 32px 15px;
+  display: inline-block;
+  position: absolute;
+  z-index: 1; /* Display this item on top of the event image */
+  bottom: 0;
+  line-height: 1.5;
+}
+
+.events__name {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 9px;
+  color: #ffffff;
+}
+
+.events__date {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.events__desc {
+  color: #ffffff;
+}

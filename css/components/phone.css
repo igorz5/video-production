@@ -1,0 +1,23 @@
+/* Phone */
+
+.phone {
+  text-align: right;
+}
+
+.phone__info {
+  font-size: 11px;
+  font-style: normal;
+  color: #9a9a9a;
+  line-height: 21px;
+}
+
+.phone__link {
+  color: #ffffff;
+  font-size: 26px;
+  font-style: normal;
+  line-height: 30px;
+}
+
+.phone__link:hover {
+  color: #ffffff;
+}

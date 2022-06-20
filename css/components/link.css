@@ -1,0 +1,10 @@
+/* Link */
+
+.link {
+  color: #ffffff;
+  transition: color 0.1s ease-in, 0.2s ease-out;
+}
+
+.link:hover {
+  color: #ff3d00;
+}

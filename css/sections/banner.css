@@ -1,0 +1,23 @@
+.banner {
+  background-color: #373737;
+}
+
+.banner--discount {
+  background-image: url("/img/reviews/party.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right 196px;
+}
+
+.banner__container {
+  padding: 114px 0;
+}
+
+.banner__title {
+  display: inline-block;
+  width: 49%;
+}
+
+.banner__text-highlight {
+  color: #ff5300;
+}

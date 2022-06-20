@@ -1,0 +1,25 @@
+@import url("../components/title.css");
+@import url("../components/button.css");
+
+/* Hero */
+
+.hero {
+  text-align: center;
+}
+
+.hero__container {
+  margin-bottom: 233px;
+}
+
+.hero__title {
+  margin-bottom: 16px;
+}
+
+.hero__subtitle {
+  margin-bottom: 19px;
+}
+
+.hero__btn {
+  display: inline-block;
+  margin-top: 23px;
+}

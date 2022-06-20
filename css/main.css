@@ -1,0 +1,30 @@
+@import url("./general/fonts.css");
+@import url("./general/base.css");
+@import url("./general/wrapper.css");
+@import url("./general/normalize.css");
+
+@import url("./components/button.css");
+@import url("./components/link.css");
+@import url("./components/logo.css");
+@import url("./components/menu.css");
+@import url("./components/paginator.css");
+@import url("./components/phone.css");
+@import url("./components/schedule.css");
+@import url("./components/socials.css");
+@import url("./components/title.css");
+@import url("./components/breadcrumbs.css");
+@import url("./components/input.css");
+
+@import url("./sections/header.css");
+@import url("./sections/hero.css");
+@import url("./sections/offers.css");
+@import url("./sections/events.css");
+@import url("./sections/about.css");
+@import url("./sections/footer.css");
+@import url("./sections/welcome.css");
+@import url("./sections/top.css");
+@import url("./sections/services.css");
+@import url("./sections/partners.css");
+@import url("./sections/reviews.css");
+@import url("./sections/banner.css");
+@import url("./sections/feedback.css");

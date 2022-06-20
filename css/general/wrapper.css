@@ -1,0 +1,16 @@
+.wrapper {
+  position: relative;
+  min-width: 1142px;
+}
+
+.wrapper--main {
+  background-image: url("/img/background/hero.png"), url("/img/background/bg.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center top, center bottom 246px;
+}
+
+.wrapper--welcome {
+  background-image: url("/img/background/bg.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+}

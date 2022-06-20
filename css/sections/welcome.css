@@ -1,0 +1,66 @@
+/* Welcome */
+
+.welcome {
+  min-height: 960px;
+}
+
+.welcome__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 960px;
+  text-align: center;
+  background-image: url("/img/background/rec.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.welcome__block {
+  animation: welcome-open 1.3s ease-in-out;
+  -webkit-animation: welcome-open 1.3s ease-in-out;
+}
+
+.welcome__logo {
+  margin-top: 20px;
+  margin-bottom: 54px;
+}
+
+.welcome__btn {
+  padding: 18px 59px;
+}
+
+@keyframes welcome-open {
+  0% {
+    transform: scale(0);
+  }
+
+  30% {
+    transform: scale(1) rotateZ(-15deg);
+  }
+
+  50% {
+    transform: rotateZ(5deg);
+  }
+
+  70% {
+    transform: rotateZ(0deg);
+  }
+}
+
+@-webkit-keyframes welcome-open {
+  0% {
+    -webkit-transform: scale(0);
+  }
+
+  30% {
+    -webkit-transform: rotateZ(-15deg) scale(1);
+  }
+
+  50% {
+    -webkit-transform: rotateZ(5deg);
+  }
+
+  70% {
+    -webkit-transform: rotateZ(0deg);
+  }
+}

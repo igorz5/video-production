@@ -1,0 +1,27 @@
+/* Header */
+
+.header {
+  padding-top: 28px;
+}
+
+.header__container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 153px;
+}
+
+.header__logo {
+  flex: 1;
+  margin-right: auto;
+  transform: translateY(-8px);
+}
+
+.header__info {
+  flex: 1;
+  display: inline-block;
+  margin-left: auto;
+}
+
+.header--services .header__container {
+  margin-bottom: 112px;
+}

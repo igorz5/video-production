@@ -1,0 +1,30 @@
+/* Title */
+
+.title {
+  color: #ffffff;
+  line-height: 1.4;
+}
+
+.title--large {
+  font-size: 72px;
+  font-weight: 800;
+}
+
+.title--medium {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.title--small {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.title--upper {
+  text-transform: uppercase;
+}
+
+.title--sub {
+  font-size: 18px;
+  font-weight: 400;
+}

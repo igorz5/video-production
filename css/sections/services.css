@@ -1,0 +1,41 @@
+.services {
+  background-color: #ffffff;
+}
+
+.services__container {
+  padding-top: 93px;
+  padding-bottom: 84px;
+}
+
+.services__list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 65px;
+}
+
+.services__item {
+  display: flex;
+}
+
+.services__item:not(:last-child) {
+  margin-bottom: 49px;
+}
+
+.services__name {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.36;
+  margin-bottom: 28px;
+}
+
+.services__desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 54px;
+}
+
+.services__block {
+  padding: 13px 56px;
+  padding-right: 0;
+}

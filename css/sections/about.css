@@ -1,0 +1,43 @@
+/* About */
+
+.about {
+  position: relative;
+}
+
+.about__container {
+  margin-bottom: 53px;
+}
+
+.about__block {
+  position: relative;
+  display: inline-block;
+  background-color: #ffffff;
+  margin-top: 96px;
+  margin-left: 354px;
+  width: 785px;
+  border-radius: 5px;
+  padding: 70px 81px 84px;
+  min-height: 455px;
+}
+
+.about__image {
+  position: absolute;
+}
+
+.about__title {
+  color: #000000;
+  margin-bottom: 37px;
+}
+
+.about__desc {
+  font-size: 16px;
+  text-align: left;
+  line-height: 27px;
+  margin-bottom: 60px;
+  width: 501px;
+}
+
+.about__btn {
+  padding: 18px 40px;
+  bottom: 0;
+}

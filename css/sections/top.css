@@ -1,0 +1,18 @@
+.top {
+  text-align: left;
+  background-color: #151618;
+}
+
+.top__container {
+  min-height: 416px;
+}
+
+.top__title {
+  margin-bottom: 84px;
+}
+
+.top {
+  background-image: url("/img/background/top-line.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
