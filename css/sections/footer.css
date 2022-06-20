@@ -8,7 +8,7 @@
 .footer__container {
   width: 100%;
   align-items: center;
-  margin-bottom: 10px;
+  padding-bottom: 50px;
 }
 
 .footer__block {
@@ -17,26 +17,24 @@
   width: 100%;
   padding-top: 46px;
   border-top: 1px solid #2e3032;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  transform: translateY(-5px);
 }
 
 .footer__menu {
-  margin-left: 130px;
+  flex: 1;
+  margin-left: 100px;
+}
+
+.footer__socials {
+  flex: 1;
 }
 
 .footer__info {
   display: inline-block;
   text-align: right;
   font-size: 14px;
-  margin-left: auto;
-}
-
-.footer__socials {
-  display: inline-block;
-  bottom: 3px;
-  margin-left: 112px;
-}
-
-.footer__logo {
-  bottom: 8px;
-  transform: translateY(-5px);
 }

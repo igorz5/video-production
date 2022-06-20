@@ -23,6 +23,13 @@
 .schedule__text:hover + .schedule__popup {
   opacity: 0.8;
   visibility: visible;
+  transition-delay: 0s;
+}
+
+.schedule__popup:hover {
+  opacity: 0.8;
+  visibility: visible;
+  transition-delay:0s;
 }
 
 .schedule__popup {
@@ -36,7 +43,7 @@
   opacity: 0;
   text-align: left;
   transition: opacity 0.1s ease-in, 0.2s ease-out;
-  pointer-events: none;
+  transition-delay: 0.5s;
 }
 
 .schedule__popup::before {

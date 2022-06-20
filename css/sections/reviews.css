@@ -62,14 +62,11 @@
 .reviews__link {
   color: #000000;
   text-decoration: none;
-  pointer-events: none;
 }
 
-.reviews__name--active .reviews__link {
+.reviews__link:hover {
   color: #2e77a4;
   text-decoration: underline;
-  cursor: pointer;
-  pointer-events: inherit;
 }
 
 .reviews__service {
