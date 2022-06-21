@@ -1,11 +1,11 @@
 /* Logo */
 
-.logo {
+.logo__image {
   width: 198px;
   height: 46px;
 }
 
-.logo--large {
+.logo--large .logo__image {
   width: 538px;
   height: 147px;
 }

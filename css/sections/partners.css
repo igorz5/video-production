@@ -28,7 +28,3 @@
   align-items: center;
   width: calc(100% / 4);
 }
-
-.partners__item:nth-child(4n+1) {
-  justify-content: left;
-}
