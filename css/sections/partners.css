@@ -28,3 +28,12 @@
   align-items: center;
   width: calc(100% / 4);
 }
+
+.partners__link {
+  transition: filter 0.1s ease-in, 0.2s ease-out;
+  filter: grayscale(100%);
+}
+
+.partners__link:hover {
+  filter: grayscale(0%);
+}
