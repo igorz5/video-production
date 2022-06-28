@@ -29,7 +29,7 @@
 .schedule__popup:hover {
   opacity: 0.8;
   visibility: visible;
-  transition-delay:0s;
+  transition-delay: 0s;
 }
 
 .schedule__popup {

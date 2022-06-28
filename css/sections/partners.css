@@ -1,11 +1,10 @@
 .partners {
   background-color: #f4f5f5;
-  min-height: 537px;
 }
 
 .partners__container {
-  height: 400px;
-  padding-top: 89px;
+  padding-top: 88px;
+  padding-bottom: 113px;
 }
 
 .partners__title {
@@ -19,7 +18,7 @@
 .partners__list {
   flex-wrap: wrap;
   display: flex;
-  gap: 40px 0px;
+  gap: 60px 0px;
 }
 
 .partners__item {

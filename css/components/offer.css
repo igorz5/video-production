@@ -1,0 +1,65 @@
+/* Offer */
+
+.offer {
+  width: 362px;
+  min-height: 476px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  transition: box-shadow 0.1s ease-in, 0.2s ease-out;
+  padding: 36px 34px 53px 23px;
+  display: flex;
+  align-items: stretch;
+}
+
+.offer:hover {
+  box-shadow: inset 0px 0px 0px 5px #cccccc;
+}
+
+.offer__block {
+  display: flex;
+  flex-direction: column;
+}
+
+.offer__name {
+  color: #000000;
+  margin-top: 30px;
+  margin-bottom: 17px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.offer__icon {
+  margin-right: auto;
+  margin-left: 5px;
+  height: 80px;
+}
+
+.offer__info {
+  display: flex;
+  height: 41px;
+  margin-bottom: 26px;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.offer__info-persons {
+  width: 102px;
+}
+
+.offer__info-work-days {
+  width: 123px;
+  margin-left: auto;
+}
+
+.offer__desc {
+  font-size: 14px;
+  line-height: 22px;
+  color: #666666;
+  margin-bottom: 29px;
+}
+
+.offer .btn {
+  padding-right: 56px;
+  align-self: flex-start;
+}

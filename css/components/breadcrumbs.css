@@ -1,7 +1,7 @@
 /* Breadcrumbs */
 
 .breadcrumbs {
-  color: #9A9A9A;
+  color: #9a9a9a;
 }
 
 .breadcrumbs__list {
@@ -15,13 +15,9 @@
   display: flex;
 }
 
-.breadcrumbs__container {
-  margin-bottom: 50px;
-}
-
 .breadcrumbs__link {
   display: block;
-  color: #9A9A9A;
+  color: #9a9a9a;
   text-decoration: underline;
 }
 

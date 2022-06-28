@@ -26,9 +26,11 @@
         <div class="header__container container">
           <!-- Logo -->
           <div class="header__logo logo">
-            <a href="./main.html" class="logo__link">
-              <img src="/img/logo.png" alt="Logo" class="logo__image" />
-            </a>
+            <div class="logo__container">
+              <a href="./main.html" class="logo__link">
+                <img src="/img/logo.png" alt="Logo" class="logo__image" />
+              </a>
+            </div>
           </div>
           <!-- Menu -->
           <nav class="menu">
@@ -47,9 +49,7 @@
           <!-- Info -->
           <address class="header__info">
             <div class="phone">
-              <a href="tel:+78007003030" class="phone__link">
-                8 800 700 30 30
-              </a>
+              <a href="tel:+78007003030" class="phone__link">8 800 700 30 30</a>
             </div>
             <div class="schedule">
               <div class="schedule__text">График работы</div>
@@ -83,81 +83,90 @@
             <ul class="offers__list">
               <!-- Offers card -->
               <li class="offers__item">
-                <article class="offers__block">
-                  <img
-                    src="/img/offers/tv.png"
-                    alt="Icon"
-                    class="offers__icon"
-                  />
-                  <h3 class="offers__name">Реклама</h3>
-                  <div class="offers-info">
-                    <div class="offers-info__persons">
-                      От <b>5</b> человек на проект
+                <div class="offer">
+                  <article class="offer__block">
+                    <img
+                      src="/img/offers/tv.png"
+                      alt="Icon"
+                      class="offer__icon"
+                    />
+                    <h3 class="offer__name">Реклама</h3>
+                    <div class="offer__info">
+                      <div class="offer__info-persons">
+                        От
+                        <b>5</b>
+                        человек на проект
+                      </div>
+                      <div class="offer__info-work-days">
+                        <b>28</b>
+                        дней работы в среднем
+                      </div>
                     </div>
-                    <div class="offers-info__work-days">
-                      <b>28</b> дней работы в среднем
-                    </div>
-                  </div>
-                  <p class="offers__desc">
-                    Креатив и производство рекламы, документального и
-                    корпоративного контента.
-                  </p>
-                  <a href="#" class="offers__btn btn btn--theme-inverse"
-                    >Подробнее</a
-                  >
-                </article>
+                    <p class="offer__desc">
+                      Креатив и производство рекламы, документального и
+                      корпоративного контента.
+                    </p>
+                    <a href="#" class="btn btn--theme-inverse">Подробнее</a>
+                  </article>
+                </div>
               </li>
               <!-- Offers card -->
               <li class="offers__item">
-                <article class="offers__block">
-                  <img
-                    src="/img/offers/clapper.png"
-                    alt="Icon"
-                    class="offers__icon"
-                  />
-                  <h3 class="offers__name">Видео-клип</h3>
-                  <div class="offers-info">
-                    <div class="offers-info__persons">
-                      От <b>7</b> человек на проект
+                <div class="offer">
+                  <article class="offer__block">
+                    <img
+                      src="/img/offers/clapper.png"
+                      alt="Icon"
+                      class="offer__icon"
+                    />
+                    <h3 class="offer__name">Видео-клип</h3>
+                    <div class="offer__info">
+                      <div class="offer__info-persons">
+                        От
+                        <b>7</b>
+                        человек на проект
+                      </div>
+                      <div class="offer__info-work-days">
+                        <b>21</b>
+                        дней работы в среднем
+                      </div>
                     </div>
-                    <div class="offers-info__work-days">
-                      <b>21</b> дней работы в среднем
-                    </div>
-                  </div>
-                  <p class="offers__desc">
-                    Вы решили представиться своим слушателям, пополнить свой
-                    творческий багаж качественным видео? Прекрасно!
-                  </p>
-                  <a href="#" class="offers__btn btn btn--theme-inverse"
-                    >Подробнее</a
-                  >
-                </article>
+                    <p class="offer__desc">
+                      Вы решили представиться своим слушателям, пополнить свой
+                      творческий багаж качественным видео? Прекрасно!
+                    </p>
+                    <a href="#" class="btn btn--theme-inverse">Подробнее</a>
+                  </article>
+                </div>
               </li>
               <!-- Offers card -->
               <li class="offers__item">
-                <article class="offers__block">
-                  <img
-                    src="/img/offers/film.png"
-                    alt="Icon"
-                    class="offers__icon"
-                  />
-                  <h3 class="offers__name">Свадьба</h3>
-                  <div class="offers-info">
-                    <div class="offers-info__persons">
-                      От <b>2</b> человек на проект
+                <div class="offer">
+                  <article class="offer__block">
+                    <img
+                      src="/img/offers/film.png"
+                      alt="Icon"
+                      class="offer__icon"
+                    />
+                    <h3 class="offer__name">Свадьба</h3>
+                    <div class="offer__info">
+                      <div class="offer__info-persons">
+                        От
+                        <b>2</b>
+                        человек на проект
+                      </div>
+                      <div class="offer__info-work-days">
+                        <b>30</b>
+                        дней работы в среднем
+                      </div>
                     </div>
-                    <div class="offers-info__work-days">
-                      <b>30</b> дней работы в среднем
-                    </div>
-                  </div>
-                  <p class="offers__desc">
-                    Получите живое видео своего самого счастливого дня, которое
-                    Вы будете пересматривать снова и снова.
-                  </p>
-                  <a href="#" class="offers__btn btn btn--theme-inverse"
-                    >Подробнее</a
-                  >
-                </article>
+                    <p class="offer__desc">
+                      Получите живое видео своего самого счастливого дня,
+                      которое Вы будете пересматривать снова и снова.
+                    </p>
+                    <a href="#" class="btn btn--theme-inverse">Подробнее</a>
+                  </article>
+                </div>
               </li>
             </ul>
           </div>
@@ -172,39 +181,45 @@
             <ul class="events__list">
               <!-- Event card -->
               <li class="events__item">
-                <a href="#" class="events__link">
-                  <img
-                    src="/img/events/camera.png"
-                    alt="Event image"
-                    class="events__image"
-                  />
-                  <article class="events__block">
-                    <time class="events__date">Декабрь 2019</time>
-                    <h3 class="events__name">Снимем ваш клип на 50% дешевле</h3>
-                    <p class="events__desc">
-                      В честь Новогодних праздников мы раздаем огромные скидки,
-                      успейте забронировать даты.
-                    </p>
-                  </article>
-                </a>
+                <div class="event">
+                  <a href="#" class="event__link">
+                    <img
+                      src="/img/events/camera.png"
+                      alt="Event image"
+                      class="event__image"
+                    />
+                    <article class="event__block">
+                      <time class="event__date">Декабрь 2019</time>
+                      <h3 class="event__title">
+                        Снимем ваш клип на 50% дешевле
+                      </h3>
+                      <p class="event__desc">
+                        В честь Новогодних праздников мы раздаем огромные
+                        скидки, успейте забронировать даты.
+                      </p>
+                    </article>
+                  </a>
+                </div>
               </li>
               <!-- Event card -->
               <li class="events__item">
-                <a href="#" class="events__link">
-                  <img
-                    src="/img/events/wedding.png"
-                    alt="Event image"
-                    class="events__image"
-                  />
-                  <article class="events__block">
-                    <time class="events__date">Декабрь 2019</time>
-                    <h3 class="events__name">Акция для молодоженов 30%</h3>
-                    <p class="events__desc">
-                      Успевайте забронировать даты. Пока еще есть места на
-                      декабрь. Удачи и всех благ!
-                    </p>
-                  </article>
-                </a>
+                <div class="event">
+                  <a href="#" class="event__link">
+                    <img
+                      src="/img/events/wedding.png"
+                      alt="Event image"
+                      class="event__image"
+                    />
+                    <article class="event__block">
+                      <time class="event__date">Декабрь 2019</time>
+                      <h3 class="event__title">Акция для молодоженов 30%</h3>
+                      <p class="event__desc">
+                        Успевайте забронировать даты. Пока еще есть места на
+                        декабрь. Удачи и всех благ!
+                      </p>
+                    </article>
+                  </a>
+                </div>
               </li>
             </ul>
             <!-- Event pagination -->
@@ -262,81 +277,69 @@
       </main>
 
       <!-- Footer -->
-      <footer class="footer">
+      <footer class="footer footer--border-top">
         <div class="footer__container container">
-          <div class="footer__block">
-            <div class="footer__logo logo">
-              <a href="./main.html" class="logo__link">
-                <img src="/img/logo.png" alt="Logo" class="logo__image" />
-              </a>
-            </div>
-            <!-- Menu -->
-            <nav class="footer__menu menu">
-              <ul class="menu__list">
-                <li class="menu__item menu__item--active">
-                  <a href="./main.html" class="menu__link link">Главная</a>
+          <div class="footer__logo logo">
+            <a href="./main.html" class="logo__link">
+              <img src="/img/logo.png" alt="Logo" class="logo__image" />
+            </a>
+          </div>
+          <!-- Menu -->
+          <nav class="footer__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item menu__item--active">
+                <a href="./main.html" class="menu__link link">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a href="./services.html" class="menu__link link">Услуги</a>
+              </li>
+              <li class="menu__item">
+                <a href="./reviews.html" class="menu__link link">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- Links to social media -->
+          <div class="footer__socials">
+            <div class="socials">
+              <ul class="socials__list">
+                <li class="socials__item">
+                  <a href="#" class="socials__link">
+                    <svg class="socials__icon icon">
+                      <use xlink:href="/img/socials/socials-icons.svg#tg"></use>
+                    </svg>
+                  </a>
                 </li>
-                <li class="menu__item">
-                  <a href="./services.html" class="menu__link link">Услуги</a>
+                <li class="socials__item">
+                  <a href="#" class="socials__link">
+                    <svg class="socials__icon icon">
+                      <use xlink:href="/img/socials/socials-icons.svg#vk"></use>
+                    </svg>
+                  </a>
                 </li>
-                <li class="menu__item">
-                  <a href="./reviews.html" class="menu__link link">Отзывы</a>
+                <li class="socials__item">
+                  <a href="#" class="socials__link">
+                    <svg class="socials__icon icon">
+                      <use xlink:href="/img/socials/socials-icons.svg#fb"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <a href="#" class="socials__link">
+                    <svg class="socials__icon icon">
+                      <use xlink:href="/img/socials/socials-icons.svg#in"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
-            </nav>
-            <!-- Links to social media -->
-            <div class="footer__socials">
-              <div class="socials">
-                <ul class="socials__list">
-                  <li class="socials__item">
-                    <a href="#" class="socials__link">
-                      <svg class="socials__icon icon">
-                        <use
-                          xlink:href="/img/socials/socials-icons.svg#tg"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="socials__item">
-                    <a href="#" class="socials__link">
-                      <svg class="socials__icon icon">
-                        <use
-                          xlink:href="/img/socials/socials-icons.svg#vk"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="socials__item">
-                    <a href="#" class="socials__link">
-                      <svg class="socials__icon icon">
-                        <use
-                          xlink:href="/img/socials/socials-icons.svg#fb"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="socials__item">
-                    <a href="#" class="socials__link">
-                      <svg class="socials__icon icon">
-                        <use
-                          xlink:href="/img/socials/socials-icons.svg#in"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
             </div>
-            <!-- Contacts -->
-            <address class="footer__info">
-              <div class="phone">
-                <div class="phone__info">Бесплатный звонок по России</div>
-                <a href="tel:+78007003030" class="phone__link">
-                  8 800 700 30 30
-                </a>
-              </div>
-            </address>
           </div>
+          <!-- Contacts -->
+          <address class="footer__info">
+            <div class="phone">
+              <div class="phone__info">Бесплатный звонок по России</div>
+              <a href="tel:+78007003030" class="phone__link">8 800 700 30 30</a>
+            </div>
+          </address>
         </div>
       </footer>
     </div>

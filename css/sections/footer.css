@@ -1,23 +1,16 @@
 /* Footer */
 
-.footer {
-  align-items: center;
-  height: 93px;
-}
-
 .footer__container {
-  width: 100%;
-  align-items: center;
-  padding-bottom: 50px;
-}
-
-.footer__block {
   display: flex;
   align-items: center;
-  width: 100%;
   padding-top: 46px;
+  padding-bottom: 50px;
   border-top: 1px solid #2e3032;
   justify-content: space-between;
+}
+
+.footer--border-top .footer__block {
+  border-top: 1px solid #2e3032;
 }
 
 .footer__logo {

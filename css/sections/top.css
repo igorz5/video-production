@@ -3,16 +3,21 @@
   background-color: #151618;
 }
 
-.top__container {
-  min-height: 416px;
+.top__header {
+  margin-bottom: 111px;
 }
 
 .top__title {
-  margin-bottom: 84px;
+  margin-bottom: 83px;
 }
 
 .top {
   background-image: url("/img/background/top-line.png");
   background-repeat: no-repeat;
   background-position: top center;
+  background-size: cover;
+}
+
+.top__breadcrumbs {
+  padding-bottom: 27px;
 }

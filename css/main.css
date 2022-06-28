@@ -15,6 +15,10 @@
 @import url("./components/breadcrumbs.css");
 @import url("./components/input.css");
 @import url("./components/icon.css");
+@import url("./components/offer.css");
+@import url("./components/event.css");
+@import url("./components/service.css");
+@import url("./components/review.css");
 
 @import url("./sections/header.css");
 @import url("./sections/hero.css");
