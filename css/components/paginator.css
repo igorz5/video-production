@@ -11,6 +11,10 @@
   color: #000000;
 }
 
+.paginator--theme-dark .paginator__item--active {
+  color: #ffffff;
+}
+
 .paginator__text {
   display: flex;
   align-items: center;
@@ -30,6 +34,9 @@
   font-weight: 700;
   width: 2em;
   height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .paginator__item:not(:last-child) {
@@ -42,8 +49,10 @@
 
 .paginator__link {
   color: inherit;
-  line-height: 2em;
   transition: color 0.1s ease-in, 0.2s ease-out;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 .paginator__link:hover {

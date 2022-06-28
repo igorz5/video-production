@@ -3,6 +3,9 @@
 .link {
   color: #ffffff;
   transition: color 0.1s ease-in, 0.2s ease-out;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
 }
 
 .link:hover {
