@@ -5,7 +5,7 @@
   transition: color 0.1s ease-in, 0.2s ease-out;
   font-weight: 400;
   font-size: 14px;
-  line-height: 19px;
+  line-height: 1.35;
 }
 
 .link:hover {
