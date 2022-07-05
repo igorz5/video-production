@@ -29,10 +29,12 @@
 }
 
 .partners__link {
-  transition: filter 0.1s ease-in, 0.2s ease-out;
+  transition: all 0.1s ease-in, 0.2s ease-out;
+  opacity: 0.7;
   filter: grayscale(100%);
 }
 
 .partners__link:hover {
   filter: grayscale(0%);
+  opacity: 1;
 }
